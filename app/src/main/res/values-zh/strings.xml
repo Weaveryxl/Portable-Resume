@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="section_education">教育经历</string>
+    <string name="section_experience">工作经验</string>
+    <string name="section_project">项目课题</string>
+    <string name="education_school">学校名称</string>
+    <string name="education_major">专业名称</string>
+    <string name="start_date">入学日期</string>
+    <string name="end_date">毕业时期</string>
+    <string name="Courses">所修课程</string>
+    <string name="save">保存</string>
+</resources>

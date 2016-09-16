@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        >
+        <TextView
+            android:id="@+id/edu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="OSU (03/2013 ~ 06/2016)" />
+
+        <ImageButton
+            android:id="@+id/edit_education_btn"
+            android:layout_width="@dimen/icon_button_size"
+            android:layout_height="@dimen/icon_button_size"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_mode_edit_black_18dp"
+            android:background="?attr/selectableItemBackground"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/courses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ME538 Autonomous Agents\nCS534 Machine Learning\nCS519 Deep Learning"
+        />
+</LinearLayout>
